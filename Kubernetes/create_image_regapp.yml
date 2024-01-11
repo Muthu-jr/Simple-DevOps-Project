@@ -8,8 +8,8 @@
      chdir: /opt/docker
 
   - name: create tag to push image onto dockerhub
-    command: docker tag regapp:latest valaxy/regapp:latest
+    command: docker tag regapp:latest muthu/regapp:latest
 
   - name: push docker image
-    command: docker push valaxy/regapp:latest
+    command: docker push muthu/regapp:latest
 

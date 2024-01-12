@@ -12,7 +12,7 @@
     command: docker tag simple-devops-image Muthu-jr/simple-devops-image
 
   - name: push image on to dockerhub
-    command: docker push Muthu-jrs/simple-devops-image
+    command: docker push Muthu-jr/simple-devops-image
 
   - name: remove docker images form ansible server
     command: docker rmi simple-devops-image:latest Muthu-jr/simple-devops-image
